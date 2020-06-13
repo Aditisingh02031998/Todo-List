@@ -1,0 +1,50 @@
+.body{
+    background:#eeeeee;
+}
+
+
+.header{
+    padding:0px  30px;
+    width:500px;
+}
+.head{
+    color: #af2f2f26;
+    font-size: 100px;
+}
+
+.middle{
+    display: inline-block;
+}
+
+.footer{
+    border: none;
+    margin-left: -120px;
+    width: 550px;
+    height: 70px;
+    font-size: 20px;
+
+}
+li {
+    font-size: 30px;
+    list-style: none;
+    width: 550px;
+    margin: 0 -160px;
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+li:hover {
+    text-decoration: line-through;
+}
+
+
+.close{
+    cursor: pointer;
+    padding: 10px 15px;
+    display: inline-block;
+    color: crimson;
+}
+.close:hover{
+    color: darkred;
+}
+
