@@ -1,6 +1,16 @@
 .body{
     background:#eeeeee;
 }
+.marginx{
+    border: none;
+    margin-left: 20px;
+    background-color: #ffffff;
+    font-size: 20px;
+    height:50px;
+    margin-top: -5px;
+    width:400px;
+}
+
 
 
 .header{
@@ -10,16 +20,17 @@
 .head{
     color: #af2f2f26;
     font-size: 100px;
+    margin-left: 50px;
 }
 
 .middle{
     display: inline-block;
 }
 
-.footer{
+.foot{
     border: none;
-    margin-left: -120px;
     width: 550px;
+    margin-left: -50px;
     height: 70px;
     font-size: 20px;
 
@@ -28,10 +39,12 @@ li {
     font-size: 30px;
     list-style: none;
     width: 550px;
-    margin: 0 -160px;
     border: 1px solid #ddd;
     background-color: #f6f6f6;
-    padding: 10px;
+    padding: 10px 40px;
+    margin-left: -90px;
+    border-radius: 1px;
+
 }
 li:hover {
     text-decoration: line-through;
@@ -47,4 +60,56 @@ li:hover {
 .close:hover{
     color: darkred;
 }
+.Selected{
+    margin: 20px 10px ;
+    float: left;
+    background-color: coral;
+    color: white;
+    font-size: 10px;
 
+}
+.select{
+   float: left;
+    margin-top:15px;
+
+}
+.footer{
+    background: #ffffff;
+    width:550px;
+    height:40px;
+    margin-left: -50px ;
+}
+.simple{
+    margin-left:120px;
+    position: absolute;
+
+}
+
+
+
+.button{
+
+    display: inline-block;
+    border-style: solid ;
+    border-color: #af2f2f26;
+    border-width: 1px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 0 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+
+
+
+.butt{
+    float: right;
+    margin-top: 10px;
+
+;
+}
+
+divi{
+    float: left;
+}
